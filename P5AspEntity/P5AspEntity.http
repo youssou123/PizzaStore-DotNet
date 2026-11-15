@@ -1,0 +1,11 @@
+@P5AspEntity_HostAddress = http://localhost:5068
+
+GET {{P5AspEntity_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{P5AspEntity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
